@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px 0px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search-input{
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-input:focus{
+    outline-color: #874556;
+}
+
+.search-button{
+    padding: 6px 13px;
+    background-color: #874556;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background-color: white;
+    color: #874556;
+    border: 1px solid #874556;
+}
+.navbar-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #28313b;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #874556;
+}
+
+.active{
+    background-color: #874556;
+    color: white;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #2f4f4f , #2f4f4f );
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #28313b;
+}
+.signup-body{
+    margin: 20px 0;
+}
+.signup-body div{
+    margin: 10px 0;
+}
+.signup-body div label{
+    display: block;
+}
+.signup-body div input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: 2px solid #28313b;
+}
+.login{
+    font-size: 15px;
+    background-color: #874556;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px 13px;
+    margin-left: 5px;
+}
+.login:hover{
+    color: #874556;
+    background-color: #f2f2f2;
+    border: 1px solid #874556;
+}
